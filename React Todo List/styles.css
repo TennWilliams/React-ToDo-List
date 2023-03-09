@@ -19,7 +19,7 @@ code {
 }
 
 .todo-list{
-  background: #e8e8e8;
+  background: plum;
   border-radius: 4px;
   padding: 5px;
   max-width: 600px;
@@ -41,6 +41,7 @@ code {
   justify-content: center;
 }
 
+
 .input{
   width: 100%;
   box-sizing: border-box;
@@ -54,7 +55,7 @@ code {
 }
 
 h2 {
-  color: magenta;
+  color: rgb(122, 109, 197);
   font-weight: bolder;
   font-size: x-large;
   font-style: italic;
@@ -65,4 +66,8 @@ h1 {
   color: rgb(207, 25, 153);
   font-weight: bolder;
   text-align: center;
+}
+
+#root {
+  background-color: red;
 }
