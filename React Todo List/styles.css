@@ -49,6 +49,8 @@ code {
 .todo:hover {
   cursor: pointer;
   color: red;
+  bottom: 2px;
+  font-weight: bolder;
 }
 
 .input{
