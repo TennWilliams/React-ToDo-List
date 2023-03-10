@@ -39,8 +39,17 @@ code {
   justify-content: space-between;
   color: purple;
   justify-content: center;
+  position: relative;
 }
 
+.todo:active {
+  top: 2px;
+}
+
+.todo:hover {
+  cursor: pointer;
+  color: red;
+}
 
 .input{
   width: 100%;
@@ -52,6 +61,11 @@ code {
   height: 2.25em;
   font-size: 24px;
   color: cornflowerblue;
+  background-color: lightpink;
+}
+
+.input:hover {
+  background-color: peachpuff;
 }
 
 h2 {
@@ -68,6 +82,3 @@ h1 {
   text-align: center;
 }
 
-#root {
-  background-color: red;
-}
