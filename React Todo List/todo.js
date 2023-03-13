@@ -4,7 +4,7 @@ function Todo({todo,index,remove}){
     remove(index);
   }
   return <div 
-  title="click to remove item"
+  title="click to delete activity"
   className="todo" onClick={handle}>{todo.text} (x)
   </div>
 }

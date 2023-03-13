@@ -2,6 +2,7 @@
 function TodoForm({addTodo}){
   const [value,setValue] = React.useState('');
   
+
   const handleSubmit = e => {
     e.preventDefault();
     if(!value) return;
@@ -10,7 +11,9 @@ function TodoForm({addTodo}){
   }
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form
+      title="click to add an activity" 
+      onSubmit={handleSubmit}>
       <input 
         type="text"
         className="input"
